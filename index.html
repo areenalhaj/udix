@@ -1,11 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"> 
+    <!-- page language, this helps for SEO -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>udix</title>
+    <title>Workspace</title>
+    <link rel="stylesheet" href="./styles/index.css">
 </head>
 <body>
-    <h1>Welcome to <i>udix</i></h1>
+
+<!-------------- Header --------------->
+<header class="Header-div">
+    <h1 >Workspace</h1>
+    <nav class="nav-bar">
+        <a href="home.com">Home</a>
+        <a href="../2 صفحة (About Us)/about.html">About</a>
+        <a href="contact.com">Contact</a>
+    </nav>
+</header>
+<!-------------- Pic & Paragraph --------------->    
+<main>
+<!-- main contains section and form -->
+<!-------------- Section --------------->
+    <section class="hero-section">
+        <div class="content">
+            <h2>Harnessing the power of artificial intelligence to
+                 create content, communicate, and collaborate.</h2>
+            <p >In addition to the apps that are familiar and 
+                loved by more than 3 billion users in Workspace,
+                 like Gmail, Google Calendar, Drive, Meet, and more,
+                  you can now use Gemini in Workspace to boost your
+                   productivity with AI. <br></p>
+            <button class="btn" type="button">Sign Up</button>
+        </div>
+        <div class="image-section">
+            <img src="https://images.inc.com/uploaded_files/image/1920x1080/getty_517610514_353435.jpg" alt="Cafe.">
+        </div>
+    </section>
+<!-------------- Form --------------->
+    <form action="" class="form">
+        <div class="form-group">
+            <label for="name">Name:</label><br>
+            <input class="input1" type="name" id="name" name="name" placeholder="name">
+        </div>
+        <div class="form-group">
+            <label for="email">Email:</label><br>
+            <input class="input1" type="email" id="email" name="email" placeholder="email">
+        </div>
+        <div class="form-group">
+            <label for="password">Password:</label><br>
+            <input class="input1" type="password" id="password" name="password" placeholder="password">
+        </div>
+        <div>
+            <input class="checkbox1" type="checkbox" name="Accept-terms&conditions" id="checkbox">
+            <label for="Accept-terms&conditions">Accept Terms & Conditions</label>
+        </div>
+        <div>
+            <button style="margin-top: 1rem;" class="btn" type="submit">Register</button>
+        </div>
+      <br>
+    </form>
+</main>
 </body>
 </html>
