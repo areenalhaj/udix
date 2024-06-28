@@ -4,3 +4,63 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* Colors variables */
+:root{
+    /* main: */
+    --bluey: #381DDB;
+    --redy: #FC5252;
+    --light-red: #FFA3A3;
+    --general-dark: #222222;
+    --general-light: #FFFFFF; 
+    /* aditional */
+    --light-grey: #E0E0E0;
+    --light-pink: #FFCDCD;
+    --light-orange:#FFBE9D;
+    --sandy:#DB841D;
+    --browny:#AA6550;
+    --pinky:#C00096;
+    --light-blue:#84C4FF;
+    /* opasity affected: */
+    --op-grey1:#222222B2;
+    --op-grey2:#22222280;
+    --op-grey3:#2222224D;
+    --op-grey4:#2222221A;
+    --op-grey5:#2222220D;
+    --op-grey6:#22222208;
+    --op-grey7:#FFFFFF33;
+    --op-grey8:#FFFFFF1A;
+    --op-grey9:#FFFFFF0D;
+}
+
+/* components */
+/* buttons */
+.btn{
+    height: 48px;
+    width: 120px;
+    padding-inline:28px;
+    padding-block:14px ;
+    color: var(--bluey);
+}
+.btn.btn-border{
+border: 1px solid var(--bluey);
+}
+.btn.btn-background{
+    background: var(--bluey);
+    color: var(--general-light);
+}
+
+h1{
+    color: var(--general-dark);
+    font-weight: bold;
+}
+.logo{
+width: 360px;
+height: 192px;
+border-radius: 20px;
+border: 1px;
+padding: 60px 0 60px 0;
+gap: 10px;
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
