@@ -200,9 +200,17 @@ h1{
     width: 8px;
     height: 8px;
     border: 1px solid var(--general-dark);
+    background-color: rgba(255, 255, 255, 0);
     border-radius: 30px;
+    box-shadow: 3px 3px 3px rgba(255, 255, 255, 0);
+}
+.pin:hover{
+    cursor: pointer;
 }
 .pin:active{
     border: 0px solid var(--general-dark);
     background-color: var(--redy);
+}
+.bb{
+    background-color: #7e4343;
 }
