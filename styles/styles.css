@@ -37,6 +37,9 @@
     --op-grey8:#FFFFFF1A;
     --op-grey9:#FFFFFF0D;
 }
+.colored-grey{
+    color: rgba(244, 238, 238, 0.463);
+}
 /* utility classes */
 .flex{
     display: flex;
@@ -86,7 +89,6 @@ a{
     font-size: 14px;
     color: var(--op-grey1);
  }
-
 /*------------- components ----------*/
 /*************** buttons *************/
 button{
@@ -132,12 +134,16 @@ button{
 }
 
 /******content*******/
+
 .colored-blue{
     color: var(--bluey);
 }
 .page-header{
     background-color: var(--general-light);
     height: 90px;
+}
+.nav-bar a:hover {
+    color: var(--bluey);
 }
 .hero-section{
     background-color: var(--redy);
@@ -165,7 +171,4 @@ h1{
 }
 .white-txt{
     color: var(--general-light);
-}
-.colored-grey7{
-    color: rgba(244, 238, 238, 0.463);
 }
