@@ -196,6 +196,9 @@ h1{
 .white-txt{
     color: var(--general-light);
 }
+.pins{
+    margin-inline: 730px;
+}
 .pin{
     width: 8px;
     height: 8px;
@@ -210,7 +213,4 @@ h1{
 .pin:active{
     border: 0px solid var(--general-dark);
     background-color: var(--redy);
-}
-.bb{
-    background-color: #7e4343;
 }
