@@ -225,11 +225,11 @@ h1 {
 }
 .pin:hover {
   cursor: pointer;
-}
-.pin:active {
   border: 0px solid var(--general-dark);
   background-color: var(--redy);
 }
+
+/* .pin:active {} */
 /* Info Section */
 /* .info-section,
 .benifits-section {
